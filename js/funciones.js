@@ -1,15 +1,8 @@
-    $(document).ready(function(){
-      $(".owl-carousel").owlCarousel();
-    });
-
-    var owl = $('.owl-carousel');
-    owl.owlCarousel({
-        items:2,
-        loop:true,
+      $(".owl-carousel").owlCarousel({
         margin:10,
-        nav:true,
+        loop:true,
         autoplay:true,
-        autoplayTimeout:3000,
+        autoplayTimeout:2000,
         autoplayHoverPause:true,
         responsive:{
             0:{

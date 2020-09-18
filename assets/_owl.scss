@@ -33,3 +33,24 @@
             object-fit: cover;
         }
 }
+
+.owl-dots {
+    text-align: center;
+    margin-top: 40px;
+    .owl-dot {
+        height: 15px;
+        width: 45px;
+        border-radius: 25px;
+        cursor: pointer;
+        outline: none;
+        margin: 0 5px;
+        border: 2px solid $violeta!important;
+        transition: all 0.3s ease;
+        &:hover {
+            background: $violeta;
+        }
+        &.active {
+            background: $violeta;
+        }
+    }
+}
