@@ -1,0 +1,66 @@
+:root {
+  font-size: $font-size-base;
+  font-weight: map-get($font-weights, medium);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  color: $negro;
+  font-family: $main-font;
+  font-size: .875rem;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+
+  main {
+    width: 1200px;
+    margin: 50px auto;
+  }
+
+  section {
+    padding: 100px 0;
+  }
+
+  h1 {
+    @include h1Font;
+    line-height: 105%;
+    color: $blanco;
+    margin: 30px 0;
+  }
+
+  h2 {
+    @include h2Font;
+    line-height: 120%;
+    margin-bottom: 50px;
+    b {
+      font-weight: 600; 
+    }
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    @include h4Font;
+    color: $celeste;
+
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    @include pFont;
+    color: $font-color;
+    line-height: 130%;
+    margin: 30px;
+    margin-top: 0px;
+  }
+
+}

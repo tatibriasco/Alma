@@ -1,0 +1,38 @@
+#hero {
+    background-image: url("../images/internacion-domiciliaria.jpg");
+    background-size: cover;
+    height: 500px;
+    padding-top: 90px;
+}
+
+#hero {
+    p {
+        color: $blanco;
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.7rem;
+    }
+}
+
+.botones-descarga {
+    img {
+        height: 50px;
+        margin: 20px 10px 0 0;
+    }
+}
+
+.container-principal-titulo {
+    color: $blanco;
+}
+
+.container-principal-texto {
+    font-size: 20px;
+    color: $blanco;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image-internacion {
+    width: 100%;
+}
