@@ -1,3 +1,37 @@
-.workers-container {
-    
+#alma-workers {
+    width: 100%;
 }
+
+.workers-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+    img {
+        -moz-transition: all 0.8s;
+        -webkit-transition: all 0.8s;
+        transition: all 0.8s;
+    }
+    &:hover {
+        img {
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        }
+    }
+}
+
+.workers-text {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+    h2 {
+        color: $blanco;
+        margin-bottom: 0px;
+    }
+    p {
+        color: $blanco;
+    }
+}
+
