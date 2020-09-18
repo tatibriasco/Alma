@@ -42,13 +42,13 @@ html, body {
   }
 
   h3 {
-    font-size: 1.5rem;
+    @include h3Font;
+    color: $celeste;
   }
 
   h4 {
     @include h4Font;
     color: $celeste;
-
   }
 
   a {

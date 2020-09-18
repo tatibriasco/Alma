@@ -10,6 +10,12 @@
     font-weight: weight(regular);
 }
 
+@mixin h3Font {
+    font-size: 1.3rem;
+    font-family: $main-font;
+    font-weight: weight(regular);
+}
+
 @mixin h4Font {
     font-size: 1rem;
     font-family: $main-font;
