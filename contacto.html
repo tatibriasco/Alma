@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Delivery a domicilio de medicamentos e insumos médicos, y servicios de profesionales de la salud" />
+  <meta name="keywords" content="MEDICAMENTOS, INSUMOS, MEDICOS, PROFESIONALES, DELIVERY, SALUD" />
   <title>Alma - Delivery de medicamentos</title>
 
   <!-- Favicon -->
@@ -59,42 +61,66 @@
   </header>
 
   <!-- Formulario de contacto -->
-  <section>
-      <form action="gracias.html" method="POST">
-        <div>
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre">
+  <section id="contact" class="container">
+    <div>
+      <h2>Contacto</h2>
+    </div>
+    <div>
+      <div class="row">
+        <div class="col-md-6 topmargin-sm">
+          <h3>¿Querés charlar con nosotros sobre Alma? <b>¡Escribinos!</b></h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus corporis perferendis, tenetur cupiditate animi eaque debitis aperiam dolorem nemo aspernatur!</p>
         </div>
-        <div>
-          <label for="apellido">Apellido:</label>
-          <input type="text" id="apellido" name="apellido" placeholder="Escriba su apellido">
-        </div>
-        <div>
-          <select name="asunto_de_mensaje">
-              <option selected disabled>Selecione el asunto</option>
-              <option value="1">Alma App</option>
-              <option value="2">Trabajar en Alma</option>
-              <option value="3">Inversiones</option>
-              <option value="4">Otros</option>
-          </select>
-        </div>
-        <div>
-          <label for="mensaje">Mensaje:</label>
-          <textarea id="mensaje" name="mensaje" placeholder="Escriba su mensaje"></textarea>
-        </div>
-        <div>
-          <input type="checkbox" name="legales" value="si">Acepta términos y condiciones
-        </div>
-        <div>
-          <input type="submit" name="boton" value="Enviar">
-          <input type="reset" value="Borrar campos">
-        </div>
-      </form>
+        <form class="col-md-6 topmargin-sm" action="gracias.html" method="POST">
+          <div class="row">
+            <div class="col-md-6">
+              <input type="text" class="form-control" id="" placeholder="Nombre">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" id="" placeholder="Apellido">
+            </div>
+            <div class="col-md-12">
+              <input type="email" class="form-control" id="" placeholder="E-mail">
+            </div>
+            <div class="col-md-12">
+              <input type="text" class="form-control" id="" placeholder="Compañía">
+            </div>
+            <div class="col-md-12">
+              <input type="tel" class="form-control" id="" placeholder="Teléfono (opcional)">
+            </div>
+            <div class="col-md-12">
+              <input type="checkbox" name="legales" value="si">Acepta términos y condiciones
+            </div>
+            <div class="col-md-12">
+              <input type="submit" class="btn btn-dark full-width" name="boton" value="Enviar">
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+
   </section>
 
   <!-- Footer -->
   <footer>
-      <p class="footer-text">Alma App © 2020</p>
+    <div class="logo">
+      <a href="index.html"><img src="images/logo-alma-blanco.png" alt="Logo Alma"></a>
+    </div>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="index.html">Inicio</a></li>
+      <li class="list-inline-item"><a href="faqs.html">FAQs</a></li>
+      <li class="list-inline-item"><a href="trabaja-en-alma.html">Trabaja en Alma</a></li>
+      <li class="list-inline-item"><a href="descargar.html">Descargar</a></li>
+      <li class="list-inline-item"><a href="contacto.html">Contacto</a></li>
+    </ul>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href=#><i class="fab fa-instagram"></i></a></li>
+      <li class="list-inline-item"><a href=#><i class="fab fa-twitter"></i></a></li>
+      <li class="list-inline-item"><a href=#><i class="fab fa-youtube"></i></a></li>
+      <li class="list-inline-item"><a href=#><i class="fab fa-facebook"></i></a></li>
+    </ul>
+    <small>©2020 Todos los derechos reservados. Creado por Alma App.</small>
   </footer>
 
   <!-- jQuery -->

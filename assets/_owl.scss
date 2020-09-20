@@ -13,8 +13,7 @@
         padding: 10px 20px;
     }
         .title {
-            font-size: 25px;
-            font-weight: 600;
+            @include h3Font;
             color: $celeste;
             line-height: 20px;
             margin: 10px 0;
@@ -32,4 +31,25 @@
             width: 100%;
             object-fit: cover;
         }
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+    .owl-dot {
+        height: 15px;
+        width: 45px;
+        border-radius: 25px;
+        cursor: pointer;
+        outline: none;
+        margin: 0 5px;
+        border: 2px solid $celeste!important;
+        transition: all 0.3s ease;
+        &:hover {
+            background: $celeste;
+        }
+        &.active {
+            background: $celeste;
+        }
+    }
 }

@@ -1,0 +1,22 @@
+#faqs {
+    margin-top: 20px;
+}
+
+div {
+    h2 {
+        color: $celeste;
+    }
+    h3 {
+        a {
+            color: $celeste;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            margin: 0 5px;
+            &:hover {
+                color: $celeste;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+    }
+}
