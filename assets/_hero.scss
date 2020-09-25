@@ -1,6 +1,7 @@
 #hero {
     background-image: url("../images/internacion-domiciliaria.jpg");
     background-size: cover;
+    background-attachment: fixed;
     height: 700px;
     p {
         color: $blanco;
@@ -12,6 +13,7 @@
 }
 
 .caption {
+    top: 0;
     padding-top: 5%;
 }
 
