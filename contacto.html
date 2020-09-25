@@ -27,17 +27,18 @@
 <body>
 
   <!-- Navigation Bar -->
-  <header class="fixed-top shadow-sm">
-    <div class="container">
-      <div class="row">
-        <nav class="container align-items-center navbar fixed-top">
-          <div class="col-6 col-md-2">
-            <div class="logo">
-              <a href="index.html"><img src="images/logo-alma.png" alt="Logo Alma"></a>
-            </div>
-          </div>
-          <div class="col-6 col-md-8">
-            <ul class="nav justify-content-end">
+  <header>
+    <nav class="navbar fixed-top shadow-sm container-fluid navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <div class="col-6">
+          <a class="navbar-brand" href="index.html"><img class="d-inline-block align-top" height="50" src="images/logo-alma.png" alt="Logo Alma"></a>
+        </div>
+        <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="col-6">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mt-2 mt-lg-0">
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Inicio</a>
               </li>
@@ -50,14 +51,14 @@
               <li class="nav-item">
                 <a class="nav-link" href="descargar.html">Descargar</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="contacto.html">Contacto</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
-        </nav>
-      </div>
-    </div>
+        </div>
+     </div>
+    </nav>
   </header>
 
   <!-- Formulario de contacto -->

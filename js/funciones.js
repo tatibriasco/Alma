@@ -23,8 +23,3 @@ owl.trigger('play.owl.autoplay',[1000])
 $('.stop').on('click',function(){
 owl.trigger('stop.owl.autoplay')
 })
-
-// Modal Formulario de contacto //
-$('#myModal').on('shown.bs.modal', function () {
-$('#myInput').trigger('focus')
-})
