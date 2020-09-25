@@ -8,14 +8,17 @@ nav {
         li {
             a {
             color: $azul-oscuro;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 500;
+            font-family: $main-font;
+            font-weight: 400;
             margin: 0 5px;
             }
             &:hover {
             color: $celeste;
             cursor: pointer;
             text-decoration: none;
+            }
+            .active {
+                font-weight: 500;
             }
         }
     }
