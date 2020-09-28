@@ -1,13 +1,13 @@
 #features {
-    margin-top: 100px;
+    margin-top: 70px;
+    .features-card {
+        background-color: $blanco;
+        border-radius: 20px;
+        text-align: center;
+        align-items: center;
+        height: 100%;
+        margin: 0 auto;
+        padding: 40px;
+    }
 }
 
-.features-card {
-    background-color: $blanco;
-    border-radius: 20px;
-    text-align: center;
-    align-items: center;
-    height: 100%;
-    margin: 0 auto;
-    padding: 40px;
-}
