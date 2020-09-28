@@ -1,29 +1,29 @@
 @mixin h1Font {
-    font-size: 3.5rem;
+    font-size: calc(3rem + 2vw);
     font-family: $main-font;
     font-weight: weight(bold);
 }
 
 @mixin h2Font {
-    font-size: 2rem;
+    font-size: calc(1rem + 1.5vw);
     font-family: $main-font;
     font-weight: weight(regular);
 }
 
 @mixin h3Font {
-    font-size: 1.3rem;
+    font-size: calc(1rem + 1vw);
     font-family: $main-font;
     font-weight: weight(regular);
 }
 
 @mixin h4Font {
-    font-size: 1rem;
+    font-size: calc(1rem + 0.5vw);
     font-family: $main-font;
     font-weight: weight(regular);
 }
 
 @mixin pFont {
-    font-size: 1rem;
+    font-size: calc(1rem + 0.2vw);
     font-weight: weight(regular);
     font-family: $main-font;
 }

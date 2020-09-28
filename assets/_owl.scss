@@ -3,34 +3,40 @@
     display: flex;
 }
 
-.slider {
-    .card {
-    background: $blanco;
-    flex: 1;
-    margin: 0 10px;
+.card { 
+background: $blanco;
+flex: 1;
+margin: 0 10px;
+}
+
+.content {
+    padding: 10px 20px;
+    .nombre {
+        font-size: calc(1rem + 0.3vw);
+        color: $gris-oscuro;
+        line-height: 20px;
+        margin: 10px 0;
     }
-    .content {
-        padding: 10px 20px;
+    .profesion {
+        font-size: calc(0.7rem + 0.3vw);
+        color: $gris-oscuro;
     }
-        .title {
-            @include h3Font;
-            color: $celeste;
-            line-height: 20px;
-            margin: 10px 0;
-        }
-        p {
-            text-align: justify;
-            margin: 10px 0;
-        }
-    .img {
-        height: 200px;
+    .quote {
+        text-align: center;
+        color: $font-color;
+        font-size: calc(0.7rem + 0.3vw);
+        margin: 10px 0;
+    }
+}
+
+.img {
+    height: 200px;
+    width: 100%;
+    img {
+        height: 100%;
         width: 100%;
+        object-fit: cover;
     }
-        img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
 }
 
 .owl-dots {
