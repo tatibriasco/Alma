@@ -1,8 +1,8 @@
 #faqs {
-    margin-top: 20px;
     div {
-        h2 {
+        h4 {
             color: $gris-oscuro;
+            margin-bottom: 20px;
         }
         a {
             color: $celeste;
@@ -25,7 +25,6 @@
         }
     }
 }
-
 
 .card-body {
     margin-left: 15px;

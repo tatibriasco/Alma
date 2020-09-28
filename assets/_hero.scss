@@ -1,17 +1,12 @@
 #hero {
-    background-image: url("../images/internacion-domiciliaria.jpg");
+    background: linear-gradient(to bottom right, rgba(108, 99, 255, 1), rgba(108, 99, 255, 0)), url("../images/internacion-domiciliaria.jpg") no-repeat right center;
     background-size: cover;
-    background-attachment: fixed;
-    height: 700px;
+    height: 600px;
     p {
         color: $blanco;
         font-size: calc(1rem + 0.7vw);
         line-height: 2.2rem;
     }
-}
-
-.caption {
-    align-items: center;
 }
 
 
