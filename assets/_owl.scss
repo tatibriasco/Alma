@@ -1,49 +1,42 @@
-#testimonios {
-    background-color: $celeste;
-}
-
 .slider {
     max-width: 1150px;
     display: flex;
-    cursor: grab;
-}
-
-.card { 
-background: $blanco;
-flex: 1;
-margin: 0 10px;
-}
-
-.content {
-    padding: 10px 20px;
-    .nombre {
-        font-size: calc(1rem + 0.3vw);
-        color: $gris-oscuro;
-        line-height: 20px;
-        margin: 10px 0;
-    }
-    .profesion {
-        font-size: calc(0.7rem + 0.3vw);
-        color: $gris-oscuro;
-    }
-    .quote {
-        text-align: center;
-        color: $font-color;
-        font-size: calc(0.7rem + 0.3vw);
-        margin: 10px 0;
-    }
-}
-
-.img {
-    height: 200px;
-    width: 100%;
-    img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
+    cursor: grab; 
+    .card { 
+        background: $blanco;
+        flex: 1;
+        margin: 0 10px;
+        .img {
+            height: 200px;
+            width: 100%;
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .content {
+            padding: 10px 20px;
+            .nombre {
+                font-size: calc(1rem + 0.3vw);
+                color: $gris-oscuro;
+                line-height: 20px;
+                margin: 10px 0;
+            }
+            .profesion {
+                font-size: calc(0.7rem + 0.3vw);
+                color: $gris-oscuro;
+            }
+            .quote {
+                text-align: center;
+                color: $font-color;
+                font-size: calc(0.7rem + 0.3vw);
+                margin: 10px 0;
+            }
+        }
     }
 }
-
+    
 .owl-dots {
     text-align: center;
     margin-top: 20px;
@@ -63,4 +56,4 @@ margin: 0 10px;
             background: $celeste;
         }
     }
-}
+}   
