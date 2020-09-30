@@ -22,4 +22,14 @@ owl.trigger('play.owl.autoplay',[1000])
 })
 $('.stop').on('click',function(){
 owl.trigger('stop.owl.autoplay')
-})
+}) 
+
+
+// Counter Up //
+jQuery(document).ready(function(){
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+});
+
