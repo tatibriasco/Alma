@@ -45,31 +45,34 @@
 
 #frase-texto {
     background-color: $celeste;
+    margin-top: -2px;
     h2 {
-        color: $blanco;
+        color: $gris-oscuro;
     }
     p {
         color: $blanco;
+        padding-bottom: 200px;
     }
 }
 
 #stats {
+    padding: 100px;
     background-color: $celeste;
-    .stat {
-        padding-top: 80px;
-        padding-bottom: 80px;
-        background-attachment: fixed;
-        margin-top: 209px;
-
-    }
     .stat-items {
         color: $blanco;
+        padding-bottom: 50px;
         p {
             color: $blanco;
-            letter-spacing: 1px;
+            letter-spacing: 2px;
+            margin-left: 15px;
         }
         i {
-            font-size: 50px;
+            color: $violeta;
+            padding-bottom: 50px;
+            font-size: 100px;
+        }
+        h2 {
+            margin-bottom: 0;
         }
     }
 }
