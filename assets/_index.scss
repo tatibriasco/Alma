@@ -30,7 +30,7 @@
     }
 }
 
-#wave-frase {
+#wave-frase-superior {
     padding: 0;
     margin: -2px;
     .wave-container {
@@ -43,15 +43,25 @@
     }
 }
 
-#frase-texto {
+#imagen-frase-texto {
     background-color: $celeste;
     margin-top: -2px;
-    h2 {
-        color: $gris-oscuro;
-    }
-    p {
-        color: $blanco;
-        padding-bottom: 200px;
+    padding-top: 100px;
+    div {
+        h3 {
+            color: $gris-oscuro;
+            margin-bottom: 50px;
+        }
+        p {
+            color: $blanco;
+            padding-bottom: 50px;
+        }
+        img {
+            position: absolute;
+            left: 3vw;
+            height: 30vw;
+            width: auto;
+        }
     }
 }
 
@@ -74,5 +84,20 @@
         h2 {
             margin-bottom: 0;
         }
+    }
+}
+
+#video-youtube {
+    background-color: $celeste;
+    iframe {
+        border-radius: 10px;
+    }
+}
+
+#wave-frase-inferior {
+    padding: 0;
+    margin: -2px;
+    .wave-container {
+        top: 0;
     }
 }
