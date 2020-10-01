@@ -91,20 +91,20 @@
     margin-top: -2px;
     padding: 0;
     div {
-        padding-top: 50px;
+        padding: 50px 0;
         h3 {
             color: $gris-oscuro;
             margin-bottom: 50px;
         }
         p {
             color: $blanco;
-            padding-bottom: 50px;
         }
         img {
             position: absolute;
+            float: right;
             padding-bottom: 150px;
             margin-right: 3vw;
-            height: 35vw;
+            height: 40vw;
             width: auto;
         }
     }
