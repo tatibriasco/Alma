@@ -1,32 +1,35 @@
-.wave-container {
-    bottom: 0;
-    background: linear-gradient(to bottom right, rgba(108, 99, 255, 1), rgba(108, 99, 255, 0)), url("../images/internacion-domiciliaria.jpg") no-repeat right center;
-    background-size: cover;
-    position: relative;
-    color: #FFF;
-    text-align: center;
-    overflow: hidden;
-    svg {
-        display: block;
-        transform-origin: bottom;
-        animation: animateWave 3000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+#hero {
+    .wave-container {
+        bottom: 0;
+        background: linear-gradient(to bottom right, rgba(108, 99, 255, 1), rgba(108, 99, 255, 0)), url("../images/internacion-domiciliaria.jpg") no-repeat right center;
+        background-size: cover;
+        position: relative;
+        color: #FFF;
+        text-align: center;
+        overflow: hidden;
+        svg {
+            display: block;
+            transform-origin: bottom;
+            animation: animateWave 3000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+        }
     }
-}
-.caption {
-    padding-top: 4vw;
-    p {
-        color: $blanco;
-        font-size: calc(1rem + 0.7vw);
-        line-height: 2.2rem;
-    }
-    .botones-descarga {
-        img {
-            height: 50px;
-            margin: 20px 10px 0 0;
-            cursor: pointer;
+    .caption {
+        padding-top: 4vw;
+        p {
+            color: $blanco;
+            font-size: calc(1rem + 0.7vw);
+            line-height: 2.2rem;
+        }
+        .botones-descarga {
+            img {
+                height: 50px;
+                margin: 20px 10px 0 0;
+                cursor: pointer;
+            }
         }
     }
 }
+
 
 .titulo-seccion {
     padding-bottom: 50px;

@@ -1,9 +1,73 @@
-#trabaja {
+#trabaja-wave {
     padding: 0;
-    div {
-        h1{
-            margin: 0 30px;
-            padding-bottom: 30px;
+    .wave-container {
+        bottom: 0;
+        background: linear-gradient(to bottom right, rgba(108, 99, 255, 1), rgba(108, 99, 255, 0)), url("../images/internacion-domiciliaria.jpg") no-repeat right center;
+        background-size: cover;
+        position: relative;
+        color: #FFF;
+        text-align: center;
+        overflow: hidden;
+        svg {
+            display: block;
+            transform-origin: bottom;
+            animation: animateWave 3000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+        }
+    }
+    .caption {
+        padding-top: 4vw;
+        h1 {
+            margin: 50px 10vw;
+        }
+        p {
+            color: $blanco;
+            font-size: calc(1rem + 0.7vw);
+            line-height: 2.2rem;
+        }
+    }
+}
+
+#trabaja-wrapper {
+    display: grid;
+    grid-template-areas:
+        "intro intro"
+        "profesional repartidor";
+    margin: 30px auto;
+    column-gap: 25px;
+    row-gap: 50px;
+    align-content: center;
+    .trabaja-en-alma {
+        grid-area: intro;
+        .profesional {
+            grid-area: profesional;
+        }
+        .repartidor {
+            grid-area: repartidor;
+        }
+        .trabaja {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.8;
+            margin: 0 50px 20px 50px;
+            text-rendering: optimizeLegibility;
+            grid-area: servicios;
+            h2 {
+                font-family: "Roboto";
+                color: $gris-oscuro;
+                font-weight: 600;
+                font-size: 22px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            p {
+                text-align: center;
+            }
+            .quiero-ser {
+                img {
+                    display: block;
+                    margin: auto;
+                }
+            }
         }
     }
 }
