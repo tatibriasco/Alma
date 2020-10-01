@@ -30,13 +30,15 @@
     }
 }
 
-
-.titulo-seccion {
-    padding-bottom: 50px;
-    h3 {
-        color: $gris-oscuro;
+#features {
+    .titulo-seccion {
+        padding-bottom: 50px;
+        h3 {
+            color: $gris-oscuro;
+        }
     }
 }
+
 
 #wave-frase-superior {
     padding: 0;

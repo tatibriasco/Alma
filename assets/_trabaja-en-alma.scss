@@ -21,54 +21,16 @@
         }
         p {
             color: $blanco;
-            font-size: calc(1rem + 0.7vw);
-            line-height: 2.2rem;
+            font-size: calc(1rem + 0.5vw);
+            line-height: 2rem;
         }
     }
 }
 
 #trabaja-wrapper {
-    display: grid;
-    grid-template-areas:
-        "intro intro"
-        "profesional repartidor";
-    margin: 30px auto;
-    column-gap: 25px;
-    row-gap: 50px;
-    align-content: center;
-    .trabaja-en-alma {
-        grid-area: intro;
-        .profesional {
-            grid-area: profesional;
-        }
-        .repartidor {
-            grid-area: repartidor;
-        }
-        .trabaja {
-            font-size: 14px;
-            font-weight: 300;
-            line-height: 1.8;
-            margin: 0 50px 20px 50px;
-            text-rendering: optimizeLegibility;
-            grid-area: servicios;
-            h2 {
-                font-family: "Roboto";
-                color: $gris-oscuro;
-                font-weight: 600;
-                font-size: 22px;
-                text-align: center;
-                margin-bottom: 20px;
-            }
-            p {
-                text-align: center;
-            }
-            .quiero-ser {
-                img {
-                    display: block;
-                    margin: auto;
-                }
-            }
-        }
+    div {
+        margin-top: 100px;
+        margin-bottom: 50px;
     }
 }
 
