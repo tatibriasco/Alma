@@ -2,13 +2,14 @@ button {
     background-color: $violeta;
     border-radius: 4px;
     color: $blanco;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-family: $main-font;
     text-transform: uppercase;
     border: none;
     padding:10px 40px;
     margin: 20px auto;
+    &:hover {
+        background-color: $azul-oscuro;
+    }
     a {
         color: $blanco;
         &:hover {

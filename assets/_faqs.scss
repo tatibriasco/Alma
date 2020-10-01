@@ -14,9 +14,9 @@
                 cursor: pointer;
                 text-decoration: none;
             }
-            h3 {
-                margin-left: 15px;
-                padding: 10px 0;
+            h4 {
+                color: $celeste;
+                margin: 10px 0 10px 15px;
                 &:hover {
                     color: $azul-oscuro;
                 }
