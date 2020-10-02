@@ -1,6 +1,7 @@
 #features {
     margin-top: 70px;
     .features-card {
+        @include sombra-chica;
         background-color: $blanco;
         border-radius: 10px;
         text-align: center;
@@ -8,6 +9,17 @@
         height: 100%;
         margin: 0 auto;
         padding: 40px;
+        &:hover {
+            @include sombra-grande;
+            cursor: pointer;
+            background-color: $celeste;
+            h4 {
+                color: $gris-oscuro;
+            }
+            p {
+                color: $blanco;
+            }
+        }
     }
 }
 

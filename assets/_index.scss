@@ -7,6 +7,7 @@
         color: #FFF;
         text-align: center;
         overflow: hidden;
+        width: 100%;
         svg {
             display: block;
             transform-origin: bottom;
@@ -43,6 +44,7 @@
 #wave-frase-superior {
     padding: 0;
     margin: -2px;
+    width: 100%;
     .wave-container {
         bottom: 0;
         svg {
@@ -113,9 +115,9 @@
 #wave-frase-inferior {
     padding: 0;
     margin: -2px;
+    width: 100%;
     .wave-container {
         top: 0;
-
     }
 }
 
