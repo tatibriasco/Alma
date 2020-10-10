@@ -1,24 +1,28 @@
 #features {
     margin-top: 70px;
     .features-card {
-        @include sombra-chica;
         background-color: $blanco;
         border-radius: 10px;
         text-align: center;
         align-items: center;
         height: 100%;
-        margin: 0 auto;
-        padding: 40px;
+        margin: 0 30px;
+        margin-bottom: 30px;
+        padding: 50px;
+        @include sombra-chica;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
         &:hover {
             @include sombra-grande;
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
             cursor: pointer;
-            background-color: $celeste;
+            background-color: $blanco;
             h4 {
-                color: $gris-oscuro;
+                color: $celeste;
                 font-weight: 500;
-            }
-            p {
-                color: $blanco;
             }
         }
     }

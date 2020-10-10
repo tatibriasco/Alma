@@ -29,15 +29,15 @@
 }
 
 @mixin sombra-grande {
-    -webkit-box-shadow: 7px 10px 13px 0px rgba(0,0,0,0.21);
-    -moz-box-shadow: 7px 10px 13px 0px rgba(0,0,0,0.21);
-    box-shadow: 7px 10px 13px 0px rgba(0,0,0,0.21);
+    -webkit-box-shadow: 0 10px 29px 0 rgba(68,88,144,0.2);
+    -moz-box-shadow: 0 10px 29px 0 rgba(68,88,144,0.2);
+    box-shadow: 0 10px 29px 0 rgba(68,88,144,0.2);
 }
 
 @mixin sombra-chica {
-    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.08);
-    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.08);
-    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.08);
+    -webkit-box-shadow: 0 10px 29px 0 rgba(68,88,144,0.1);
+    -moz-box-shadow: 0 10px 29px 0 rgba(68,88,144,0.1);
+    box-shadow: 0 10px 29px 0 rgba(68,88,144,0.1);
 }
 
 @keyframes animateWave {
