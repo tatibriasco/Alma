@@ -26,6 +26,19 @@
     }
 }
 
+#link-contacto {
+    img {
+        width: auto;
+        height: 20vw;
+        animation-name: floating;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        animation-timing-function: ease-in-out;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+}
+
 .card-body {
     margin-left: 15px;
 }

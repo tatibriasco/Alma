@@ -11,8 +11,19 @@
         i {
             font-size: 1rem;
         }
+        li {
+            @include pFont;
+            color: $font-color;
+            line-height: 130%;
+            margin-top: 0px;
+        }
+    }
+    .titulo-botones {
         p {
-            font-size: 1rem;
+            font-size: calc(0.7rem + 0.1vw);
+            color: $font-color;
+            line-height: 130%;
+            margin-top: 0px;
         }
     }
 
