@@ -64,6 +64,10 @@
             color: $violeta;
             padding-bottom: 50px;
             font-size: 100px;
+            animation-name: floating;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
         }
         h2 {
             margin-bottom: 0;
