@@ -28,7 +28,6 @@ input {
     }
     &[type=submit] {
         @include pFont;
-        width: 100%;
         color: $blanco;
         text-transform: uppercase;
         background-color: $violeta;
