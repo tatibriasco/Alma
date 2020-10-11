@@ -22,6 +22,11 @@ nav {
             }
         }
     }
+    .navbar-toggler {
+        &:hover {
+            background-color: #fcfcfc;
+        }
+    }
 }
 
 .logo {
