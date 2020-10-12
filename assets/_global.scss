@@ -60,6 +60,11 @@ html, body {
     margin-top: 0px;
   }
 
+  ul, li {
+    text-decoration: none;
+    list-style: none;
+  }
+
   .content-center {
     margin: 0 auto 60px auto;
     text-align: center;
@@ -70,6 +75,9 @@ html, body {
     background-color: #f7f7f7;
     h4 {
       color: $gris-oscuro;
+    }
+    li {
+      margin: 0 5px;
     }
   }
 }
