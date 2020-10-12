@@ -56,14 +56,15 @@
         .workers-text {
             position: absolute;
             bottom: 25px;
-            left: 25px;
             z-index: 1;
             h2 {
                 color: $blanco;
                 margin-bottom: 0px;
+                text-shadow: 2px 2px 15px $gris-oscuro;
             }
             p {
                 color: $blanco;
+                text-shadow: 2px 2px 15px $violeta;
             }
         }
         
