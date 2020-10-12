@@ -1,9 +1,6 @@
-#descargar { 
+#descargar {
+    padding-top: 0;
     div {
-        h4 {
-            color: $gris-oscuro;
-            margin-bottom: 100px;
-        }
         h2 {
             color: $celeste;
             font-weight: 700;
@@ -31,5 +28,4 @@
             cursor: pointer;
         }
     }
-
 }
